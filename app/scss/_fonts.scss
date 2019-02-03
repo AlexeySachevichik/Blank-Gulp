@@ -6,3 +6,13 @@
   src: url("../fonts/Comfortaa-Light.ttf") format("truetype");
 }
 */
+
+ul {
+  margin: 0px 20px;
+  display: flex;
+
+  li {
+    margin-right: 15px;
+    color: antiquewhite;
+  }
+}

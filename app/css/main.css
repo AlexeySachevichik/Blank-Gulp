@@ -71,10 +71,18 @@ html {
   src: url("../fonts/Comfortaa-Light.ttf") format("truetype");
 }
 */
+ul {
+  margin: 0px 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  ul li {
+    margin-right: 15px;
+    color: antiquewhite; }
+
 body {
   background: #777777;
-  font-size: 16px;
-  font-weight: 700;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -88,5 +96,7 @@ body {
       -ms-flex-align: center;
           align-items: center; }
   body h1 {
-    font-size: 35px;
-    text-transform: uppercase; }
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff; }
