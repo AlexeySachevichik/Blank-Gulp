@@ -1,0 +1,17 @@
+@import "reset";
+@import "fonts";
+
+body {
+	background: #777777;
+	font-size: 16px;
+	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	h1 {
+		font-size: 35px;
+		text-transform: uppercase;
+		
+	}
+}
